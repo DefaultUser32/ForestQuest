@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3557478577097616474
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1689866831511430, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_Name
+      value: HeavyBandit 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805181885227780, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95346456782871180, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: b810f2280bb2a6b4cbf996716e6e3d55, type: 2}
+    - target: {fileID: 212259381048184306, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 317b8365a4649ab459f6cb58ec8f9f18, type: 3}
+    m_RemovedComponents:
+    - {fileID: 4290265119305510946, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1689866831511430, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8833791253274009070}
+  m_SourcePrefab: {fileID: 100100000, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+--- !u!4 &30746403962399394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3545327259948386040, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+  m_PrefabInstance: {fileID: 3557478577097616474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3555788744894354396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1689866831511430, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+  m_PrefabInstance: {fileID: 3557478577097616474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8833791253274009070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555788744894354396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d649ef8c2bf40c24e8d0b9e5358bde2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  health: 100
+  speed: 0.35
+  attackRange: 0.3
+  aproachRange: 2
+  awaitAnimation: 0
+  healthBar: {fileID: 30746403962399394}
+  player: {fileID: 0}
+  rb: {fileID: 0}
+  sr: {fileID: 0}
+  anim: {fileID: 0}
