@@ -35,6 +35,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    public bool isDead; // used to prevent duplicating the death animation
+
     // healthbar variables
     [SerializeField] Transform healthBar; // transform of the red portion of the healthbar
     [SerializeField] Transform healthBarBackground; // transform of the backgrond of the healthbar to allow hiding it on death
@@ -65,7 +67,6 @@ public class Enemy : MonoBehaviour
     private Vector2 relativeVector; // the relative vector between the player and enemy
     private bool side; // the side the player is on relative to the enemy: if left then true, if right false
     private float distance; // the absolute magnitude of the relative vector
-    private bool isDead; // used to prevent duplicating the death animation
 
     private void Start() // get references for internal variables
     {

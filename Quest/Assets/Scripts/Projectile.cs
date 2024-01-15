@@ -48,15 +48,20 @@ public class Projectile : MonoBehaviour
             return;
         }
 
+        if (collision.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
+        {
+            if (enemy.isDead) return;
+            enemy.Damage(damage);
+
+            GetComponent<Animator>().SetTrigger("Die");
+
+            return;
+        }
         // die
         GetComponent<Animator>().SetTrigger("Die");
 
         // if its an enemy, damage the enemy
-        if (collision.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
-        {
-            enemy.Damage(damage);
-            return;
-        }
+
 
         // if its a node (but not an enemy), toggle it
         if (collision.gameObject.TryGetComponent<Node>(out Node node))

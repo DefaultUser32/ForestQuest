@@ -157,7 +157,6 @@ MonoBehaviour:
   speed: 400
   attackRange: 0.3
   aproachRange: 2
-  awaitAnimation: 0
   healthBar: {fileID: 3545327259948386040}
   healthBarBackground: {fileID: 1480753348177881557}
   player: {fileID: 0}
@@ -374,6 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40d02cc672f12849b6ebd27720c4dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 20
 --- !u!1 &8812445055939610833
 GameObject:
   m_ObjectHideFlags: 0

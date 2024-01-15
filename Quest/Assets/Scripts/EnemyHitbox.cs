@@ -7,6 +7,8 @@ public class EnemyHitbox : MonoBehaviour
     // Matthew Macdonald
     // 14-01-24
     // Allows enemy sword to hurt player
+
+    public float damage;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // if the collision is not with the player, exit
@@ -16,6 +18,6 @@ public class EnemyHitbox : MonoBehaviour
         }
 
         // hit player for 10 damage
-        pc.GetHit(10f);
+        pc.GetHit(damage);
     }
 }

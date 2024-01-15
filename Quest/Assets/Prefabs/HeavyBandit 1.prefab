@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300002, guid: 317b8365a4649ab459f6cb58ec8f9f18, type: 3}
+    - target: {fileID: 8507838973827363529, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4290265119305510946, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
     m_RemovedGameObjects: []
@@ -72,6 +76,11 @@ PrefabInstance:
 --- !u!4 &30746403962399394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3545327259948386040, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
+  m_PrefabInstance: {fileID: 3557478577097616474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2725243721425339791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1480753348177881557, guid: 194e8c34001145042935c1d2e25292fc, type: 3}
   m_PrefabInstance: {fileID: 3557478577097616474}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &3555788744894354396 stripped
@@ -92,12 +101,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  health: 100
-  speed: 0.35
+  trueHealth: 100
+  visualHealth: 100
+  healthAnimateSpeed: 0.4
+  speed: 400
   attackRange: 0.3
   aproachRange: 2
-  awaitAnimation: 0
   healthBar: {fileID: 30746403962399394}
+  healthBarBackground: {fileID: 2725243721425339791}
   player: {fileID: 0}
   rb: {fileID: 0}
   sr: {fileID: 0}

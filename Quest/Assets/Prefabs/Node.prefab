@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parents: []
-  isBrazer: 1
+  isBrazier: 1
   isActive: 0
 --- !u!95 &679802557161044644
 Animator:

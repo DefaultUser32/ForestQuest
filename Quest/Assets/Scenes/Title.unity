@@ -1473,6 +1473,10 @@ PrefabInstance:
       propertyPath: dependancyId
       value: Level2
       objectReference: {fileID: 0}
+    - target: {fileID: 7144670084819446548, guid: 0699cf6c589abc641a15d2c09ba6f7cb, type: 3}
+      propertyPath: titleUIHandler
+      value: 
+      objectReference: {fileID: 2013898863}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
