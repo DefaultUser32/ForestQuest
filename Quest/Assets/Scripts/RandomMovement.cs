@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RandomMovement : MonoBehaviour
 {
+    // Matthew Macdonald
+    // 15-01-24
+    // this script is just here to fill in the "randomized movement" checkbox on the rubrick
     [SerializeField] Vector2 minBound;
     [SerializeField] Vector2 maxBound;
     [SerializeField] float timeBetween;
